@@ -1,7 +1,7 @@
 # 💫 About Me:
 I am a second year CS student at Vrije Universiteit Amsterdam, working as a web developer on the side and creating my own projects.<br>Check out my coding portfolio: [yahyaehsan.vercel.app](https://yahyaehsan.vercel.app/)<br>
 ## What I'm working on:
-AI training for Presently to turn simple prompts into professional presentation slides. https://yussypu.github.io/presently/ <br>Adding material and fixing bugs in Intervix, a full stack DSA resource with learning and practice questions. https://intervix.vercel.app/ <br>
+AI training for Presently to turn simple prompts into professional presentation slides. https://yussypu.github.io/presently/ <br>Adding material and fixing bugs in Intervix, a full stack DSA resource with learning and practice questions. https://intervix.vercel.app/ <br>Bench press 100kg for 8 reps. <br>
 
 
 ## 🌐 Socials:
