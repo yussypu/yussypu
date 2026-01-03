@@ -4,9 +4,9 @@
 
 Building high-performance trading infrastructure for crypto traders and prediction markets.
 
-🔧 **Currently:** Developing automated trading systems for Polymarket, DEX protocols, and prediction markets  
-⚡ **Specialty:** Sub-second latency bots built in Rust  
-🎯 **Focus:** Arbitrage detection, sniper bots, and strategy automation  
+**Currently:** Developing automated trading systems for Polymarket, DEX protocols, and prediction markets  
+**Specialty:** Sub-second latency bots built in Rust  
+**Focus:** Arbitrage detection, sniper bots, and strategy automation  
 
 ---
 
@@ -36,7 +36,7 @@ Ultra-low latency bot framework for new token listings on Uniswap, Pump.fun, and
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Primary:**
 - Rust (async, Tokio, performance optimization)
@@ -55,7 +55,7 @@ Ultra-low latency bot framework for new token listings on Uniswap, Pump.fun, and
 
 ---
 
-## 💼 Client Work
+## Client Work
 
 Currently building custom trading bots for professional traders and crypto funds. Projects include:
 - Cross-platform arbitrage systems
@@ -67,13 +67,13 @@ Currently building custom trading bots for professional traders and crypto funds
 
 ---
 
-## 📫 Contact
+## Contact
 
 - **Website:** [yahyaehsan.dev](https://yahyaehsan.dev)
-- **Email:** yahya@yahyaehsan.dev
+- **Email:** yahyaehsan137@gmail.com
 - **Twitter/X:** [@yussypu](https://twitter.com/yussypu)
 - **Telegram:** [@yussypu](https://t.me/yussypu)
 
 ---
 
-**Based in Amsterdam** | Final year CS student at VU Amsterdam
+**Based in Amsterdam** 
