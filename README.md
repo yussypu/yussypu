@@ -10,7 +10,7 @@ Building high-performance trading infrastructure for crypto traders and predicti
 
 ---
 
-## 📊 Featured Projects
+## Featured Projects
 
 ### [Polymarket Arbitrage Bot](https://github.com/yussypu/polymarket-arbitrage) *(Private)*
 Real-time cross-platform arbitrage detection and execution system. Monitors multiple prediction markets, calculates optimal position sizing, executes trades with sub-second latency.
