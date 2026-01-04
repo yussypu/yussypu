@@ -130,6 +130,7 @@ Educational OS kernel implementing virtual memory, process management, and conte
 Building scalable backend systems and infrastructure
 
 **Freelance Systems Engineer** 
+
 Project based, specialized in trading bot development, and high-performance backend systems
 
 ---
