@@ -1,12 +1,10 @@
 # Yahya Ehsan
 
-**Senior Systems Engineer | Rust Trading Bot Specialist**
+**Senior Systems Engineer**
 
-Building high-performance, production-grade trading infrastructure for crypto traders and prediction markets. Specialized in sub-second latency systems, concurrent architectures, and real-time data processing.
+Building high-performance production systems across the stack - from sub-millisecond trading infrastructure in Rust to secure API integrations and backend services in TypeScript/Node.js.
 
-**Currently:** Developing automated trading systems for Polymarket, DEX protocols, and prediction markets  
-**Specialty:** High-performance systems programming in Rust with focus on concurrency and low-latency execution  
-**Focus:** Arbitrage detection, market-making infrastructure, and distributed trading systems
+**Specialties:** High-performance systems programming, real-time data processing, OAuth/API integrations, distributed architectures
 
 ---
 
@@ -26,6 +24,22 @@ High-performance trading infrastructure handling concurrent cryptocurrency marke
 **Stack:** Rust, Tokio async runtime, WebSockets, REST APIs  
 **Delivered:** 72 hours from contract to production deployment  
 **Status:** Currently running in production
+
+---
+
+### [Google Calendar Incremental Sync Engine](https://github.com/yussypu/google-calendar-sync) *(Open Source)*
+
+Production-ready implementation of Google Calendar OAuth flow and incremental sync using nextSyncToken pattern. Demonstrates secure token management and efficient API usage.
+
+**Technical Highlights:**
+- Complete OAuth 2.0 flow with automatic token refresh
+- Incremental sync: first run fetches full data, subsequent runs only fetch changes
+- Token rotation middleware with expiry detection
+- TypeScript with full type safety
+- Clean error handling and reconnection logic
+
+**Stack:** TypeScript, Node.js, Google Calendar API, OAuth 2.0  
+**Status:** Open source, documented demo
 
 ---
 
@@ -105,44 +119,40 @@ Automated lead scraping and validation system for real estate/B2B clients with G
 
 ## Technical Expertise
 
-**Systems Programming:**
-- Rust (async/await, Tokio, performance optimization, lock-free concurrency)
-- Low-level network programming (WebSockets, TCP/UDP, custom protocols)
-- Concurrent and parallel system design
-- Memory-safe systems with zero-cost abstractions
+**Languages & Frameworks:**
+- **Rust:** async/await, Tokio, lock-free concurrency, performance optimization
+- **TypeScript/JavaScript:** Node.js, Express, React, async patterns
+- **Python:** Data processing, AI/ML integration, automation
 
-**Trading Infrastructure:**
+**Backend & APIs:**
+- OAuth 2.0 flows and secure token management
+- Google APIs (Calendar, Gmail, Sheets, Vertex AI, Cloud IAM)
+- RESTful API design and implementation
+- WebSocket protocols and real-time data streaming
+- Background job processing (Cron, BullMQ, async workers)
+
+**Systems & Infrastructure:**
+- Low-level network programming (TCP/UDP, custom protocols)
+- Concurrent and parallel system design
+- Event-driven architecture patterns
+- Cloud platforms (GCP, AWS, Supabase)
+- Database design (PostgreSQL, Redis, Supabase)
+
+**Trading & Finance:**
 - Real-time order book processing
 - Market data normalization and aggregation
 - Sub-millisecond latency optimization
-- Event-driven architecture patterns
-
-**Backend Engineering:**
-- High-throughput API design and implementation
-- Distributed systems and message passing
-- OAuth 2.0 flows and token management
-- Database design and optimization
-- Cloud infrastructure (GCP, AWS)
-- Background job processing (Cron, BullMQ)
-
-**API Integration:**
-- Google APIs (Calendar, Gmail, Sheets, Vertex AI)
-- Financial data APIs (WebSocket/REST)
-- Custom protocol implementations
-
-**Secondary:**
-- Python (data analysis, backtesting, AI/ML integration)
-- TypeScript/JavaScript (full-stack development)
-- SQL/NoSQL databases (PostgreSQL, Redis, Supabase)
+- High-frequency trading infrastructure
 
 ---
 
 ## Open Source Contributions
 
-Building tools and infrastructure for the trading and crypto communities:
-- Production-ready trading bot frameworks
+Building tools and infrastructure for developers and traders:
+- Production-ready trading bot frameworks (Rust)
+- API integration patterns and best practices (TypeScript/Node.js)
 - High-performance systems programming examples
-- Educational resources for systems-level Rust development
+- Educational resources for distributed systems
 
 ---
 
@@ -161,13 +171,12 @@ Focus on distributed systems, algorithms, and high-performance computing
 
 ## Client Work
 
-Available for custom trading bot development and backend infrastructure projects:
-- Cross-platform arbitrage systems
-- Market-making infrastructure
-- Custom strategy automation
-- High-performance API integrations
+Available for:
+- Trading bot development (Rust, high-performance systems)
+- Google API integrations (Calendar, Gmail, Sheets, OAuth flows)
+- Backend infrastructure and API development
 - Real-time data processing pipelines
-- OAuth flows and secure token management
+- Secure authentication and token management systems
 
 **Rates:** €3,500 standard bot development (72-hour delivery) | Custom quotes for complex systems
 
@@ -183,4 +192,4 @@ Available for custom trading bot development and backend infrastructure projects
 
 ---
 
-*Building production-grade systems with Rust. Specializing in trading infrastructure that handles real money.*
+*Building production-grade systems - from microsecond-latency trading infrastructure in Rust to secure OAuth flows in TypeScript.*
