@@ -129,8 +129,8 @@ Educational OS kernel implementing virtual memory, process management, and conte
 **Backend Engineer** @ Orbit Consulting (30 hrs/week)  
 Building scalable backend systems and infrastructure
 
-**Freelance Systems Engineer** @ Upwork  
-Specialized in trading bot development, Google API integrations, and high-performance backend systems
+**Freelance Systems Engineer** 
+Project based, specialized in trading bot development, and high-performance backend systems
 
 ---
 
