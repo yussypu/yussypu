@@ -12,7 +12,7 @@ High-performance systems programming and production backend infrastructure. Rust
 ## Featured Projects
 
 
-### [Polymarket Trading Bot Infrastructure](https://github.com/yussypu/polymarket-engine)
+### Polymarket Trading Bot Infrastructure
 
 Production-grade foundation for building Polymarket trading bots. Concurrent asset execution, real-time market data streaming, event-driven architecture.
 
@@ -38,7 +38,7 @@ High-performance trading infrastructure handling concurrent cryptocurrency marke
 
 ---
 
-### [Google Calendar OAuth & Incremental Sync](https://github.com/yussypu/google-calendar-oauth-sync)
+### Google Calendar OAuth & Incremental Sync
 
 Clean implementation of Google Calendar's OAuth 2.0 flow with incremental sync using `nextSyncToken`. Demonstrates proper token management and efficient API usage patterns.
 
@@ -54,7 +54,7 @@ Clean implementation of Google Calendar's OAuth 2.0 flow with incremental sync u
 
 ---
 
-### [Redis Clone](https://github.com/yussypu/redis-go)
+### Redis Clone
 
 In-memory key-value store in Go with thread-safe concurrent access. Demonstrates deep understanding of data structures and concurrency primitives.
 
@@ -68,7 +68,7 @@ In-memory key-value store in Go with thread-safe concurrent access. Demonstrates
 
 ---
 
-### [Real-Time File Sync Engine](https://github.com/yussypu/rust-file-sync)
+### Real-Time File Sync Engine
 
 High-performance file synchronization system with real-time change detection and end-to-end encryption.
 
@@ -82,7 +82,7 @@ High-performance file synchronization system with real-time change detection and
 
 ---
 
-### [RISC-V Operating System Kernel](https://github.com/yussypu/riscv-kernel)
+### RISC-V Operating System Kernel
 
 Educational OS kernel implementing virtual memory, process management, and context switching on RISC-V architecture.
 
