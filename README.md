@@ -28,15 +28,6 @@ Production-grade foundation for building Polymarket trading bots. Concurrent ass
 
 ---
 
-### Polymarket Multi-Asset Trading Bot *(Private Client Work)*
-
-High-performance trading infrastructure handling concurrent cryptocurrency markets with sub-100ms event detection and execution latency.
-
-**Delivered:** Full system from contract to production in 72 hours  
-**Stack:** Rust, Tokio, WebSockets, REST APIs  
-**Status:** Currently running in production for client
-
----
 
 ### Google Calendar OAuth & Incremental Sync
 
