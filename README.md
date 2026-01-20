@@ -1,6 +1,6 @@
 # Yahya Ehsan
 
-**Senior Systems Engineer**
+**Systems Engineer**
 
 High-performance systems programming and production backend infrastructure. Rust for microsecond-latency trading systems, TypeScript/Node.js for secure API integrations and OAuth flows.
 
