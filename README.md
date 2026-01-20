@@ -134,9 +134,6 @@ Available for:
 - **Backend infrastructure:** Real-time data processing, WebSocket systems, async workers
 - **Systems programming:** Low-latency systems, concurrent architectures
 
-**Standard bot development:** €3,500 (72-hour delivery)  
-**Complex systems:** Custom quotes for multi-platform infrastructure, fund management systems (€5,000-€15,000)
-
 **Interested in working together?** → [yahyaehsan.dev](https://yahyaehsan.dev)
 
 ---
