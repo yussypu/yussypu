@@ -1,149 +1,74 @@
 # Yahya Ehsan
 
-**Systems Engineer**
+**Trading Systems Engineer**
 
-High-performance systems programming and production backend infrastructure. Rust for microsecond-latency trading systems, TypeScript/Node.js for secure API integrations and OAuth flows.
+High performance infrastructure for prediction markets and algorithmic trading.
+Rust for microsecond latency execution systems, with a research layer for
+identifying and systematizing exploitable market inefficiencies.
 
-**Currently:** Building automated trading bots for Polymarket and prediction markets  
-**Specialties:** Sub-second latency systems, concurrent architectures, OAuth/API integrations, real-time data processing
+**Currently:** Quant researcher + systems engineer on Polymarket —
+building and validating alpha-generating strategies backed by data,
+with production Rust execution infrastructure.
+
+**Focus areas:** Market microstructure analysis, pricing inefficiency detection,
+order book dynamics, automated execution with risk controls.
 
 ---
 
-## Featured Projects
+## Trading & Research Work
 
+### Polymarket Alpha Research Infrastructure
 
-### Polymarket Trading Bot Infrastructure
+End-to-end pipeline for prediction market strategy development:
+research → backtest → production execution.
 
-Production-grade foundation for building Polymarket trading bots. Concurrent asset execution, real-time market data streaming, event-driven architecture.
+**Research layer:**
+- Arbitrage detection across correlated Polymarket markets (CLOB API)
+- Order book microstructure analysis: spread patterns, liquidity depth, price impact
+- Pricing inefficiency identification via real-time WebSocket order book streaming
+- Signal generation from cross-market dislocations and event-driven mispricings
 
-**Architecture:**
-- 4 independent async executors (BTC, ETH, SOL, XRP) with isolated failure domains
-- Sub-100ms round transition detection with dedicated watchers
-- WebSocket order book streaming with heartbeat monitoring and auto-reconnection
-- Event normalization layer (raw data → type-safe internal events)
+**Execution layer:**
+- 4 independent async executors with isolated failure domains
+- Sub-100ms market state detection, <1ms message processing
+- Event-driven architecture: raw market data → normalized signals → execution
+- Kill switch, position sizing logic, automated risk controls
 - Zero shared mutable state across await points
 
-**Stack:** Rust, Tokio async runtime, WebSockets, REST APIs  
-**Performance:** Round detection <100ms, message processing <1ms, 10-20MB per asset
+**Stack:** Rust, Tokio, WebSockets, Polymarket CLOB API  
+**Latency:** Round detection <100ms · Message processing <1ms · 10-20MB RSS per asset
 
 ---
 
-
-### Google Calendar OAuth & Incremental Sync
-
-Clean implementation of Google Calendar's OAuth 2.0 flow with incremental sync using `nextSyncToken`. Demonstrates proper token management and efficient API usage patterns.
-
-**Technical Highlights:**
-- OAuth 2.0 with automatic token refresh (5min buffer before expiry)
-- Incremental sync: first run fetches all, subsequent runs only fetch changes (10-100x faster)
-- Encrypted token storage with AES-256-GCM
-- Automatic recovery when sync tokens expire
-- Rate limiting to avoid quota limits
-
-**Stack:** TypeScript, Node.js, Google Calendar API, OAuth 2.0  
-**Performance:** Full sync ~2-5s, incremental ~200-500ms (50 events)
-
----
-
-### Redis Clone
-
-In-memory key-value store in Go with thread-safe concurrent access. Demonstrates deep understanding of data structures and concurrency primitives.
-
-**Technical Highlights:**
-- `sync.RWMutex` for lock-free reads with multiple concurrent readers
-- CLI and TCP server modes
-- Custom benchmarking framework
-
-**Performance:** SET 381ns/op, GET 16.8ns/op (Apple M1)  
-**Stack:** Go, concurrent data structures, TCP networking
-
----
+## Other Systems Projects
 
 ### Real-Time File Sync Engine
+High-performance file sync with AES-256-GCM encryption and async I/O.  
+**Performance:** 123µs avg sync time across 5000+ files · **Stack:** Rust, Tokio
 
-High-performance file synchronization system with real-time change detection and end-to-end encryption.
+### Redis Clone
+Thread-safe in-memory KV store with custom benchmarking framework.  
+**Performance:** SET 381ns/op · GET 16.8ns/op (M1) · **Stack:** Go
 
-**Technical Highlights:**
-- Real-time file system monitoring with `notify` crate
-- AES-256-GCM encryption for secure transfers
-- Client-server architecture with async I/O
+### Google Calendar OAuth & Incremental Sync
+OAuth 2.0 with incremental sync via `nextSyncToken`. 10-100x faster than full sync.  
+**Performance:** Full sync ~2-5s · Incremental ~200-500ms · **Stack:** TypeScript, Node.js
 
-**Performance:** 123µs average sync time per file (5000+ files)  
-**Stack:** Rust, Tokio, AES encryption, async file I/O
-
----
-
-### RISC-V Operating System Kernel
-
-Educational OS kernel implementing virtual memory, process management, and context switching on RISC-V architecture.
-
-**Technical Highlights:**
-- Two-level page tables (SV32) with virtual-to-physical translation
-- Process control blocks with state tracking
-- Context switching with register preservation and stack swapping
-- Inline assembly for low-level CSR manipulation
-
-**Stack:** Rust, RISC-V assembly, bare-metal systems programming
+### RISC-V OS Kernel
+Bare-metal kernel: SV32 virtual memory, process management, context switching.  
+**Stack:** Rust, RISC-V assembly
 
 ---
 
-## Technical Expertise
+## Technical Stack
 
-**Systems Programming:**
-- Rust (async/await, Tokio, lock-free concurrency, zero-cost abstractions)
-- Go (concurrent patterns, sync primitives)
-- Low-level network programming (WebSockets, TCP/UDP, custom protocols)
-- Memory-safe systems with performance optimization
-
-**Backend & APIs:**
-- OAuth 2.0 flows with automatic token refresh and secure storage
-- Google APIs (Calendar, Gmail, Sheets, Vertex AI, Cloud IAM)
-- RESTful API design and WebSocket streaming
-- Background job processing (Cron, BullMQ, async workers)
-- TypeScript/Node.js for production backend services
-
-**Trading Infrastructure:**
-- Real-time order book processing
-- Market data normalization and event-driven architecture
-- Sub-millisecond latency optimization
-- Concurrent execution models with isolated failure domains
-
-**Other:**
-- Python (data processing, AI/ML integration, automation)
-- Cloud platforms (GCP, AWS, Supabase)
-- Database design (PostgreSQL, Redis)
-
----
-
-## Professional Experience
-
-**Backend Engineer** @ Orbit Consulting (30 hrs/week)  
-Building scalable backend systems and infrastructure
-
-**Freelance Systems Engineer** 
-
-Project based, specialized in trading bot development, and high-performance backend systems
-
----
-
-## Client Work
-
-Available for:
-- **Trading bots:** High-performance Rust systems for crypto/prediction markets
-- **API integrations:** Google Calendar/Gmail/Sheets with OAuth flows and secure token management
-- **Backend infrastructure:** Real-time data processing, WebSocket systems, async workers
-- **Systems programming:** Low-latency systems, concurrent architectures
-
-**Interested in working together?** → [yahyaehsan.dev](https://yahyaehsan.dev)
+**Core:** Rust (Tokio, async/await, lock-free concurrency) · Go · TypeScript/Node.js · Python  
+**Trading:** CLOB APIs · WebSocket order book streaming · real-time event normalization · position sizing  
+**Backend:** OAuth 2.0 · REST/WebSocket APIs · PostgreSQL · Redis · async workers  
+**Infra:** GCP · AWS · Supabase
 
 ---
 
 ## Contact
 
-- **Website:** [yahyaehsan.dev](https://yahyaehsan.dev)
-- **Email:** yahyaehsan137@gmail.com
-- **Location:** Amsterdam, Netherlands
-
----
-
-*Production-grade systems - from microsecond-latency trading infrastructure to secure OAuth integrations.*
+**Web:** [yahyaehsan.dev](https://yahyaehsan.dev) · **Email:** yahyaehsan137@gmail.com · **Location:** Amsterdam
