@@ -6,7 +6,7 @@ High performance infrastructure for prediction markets and algorithmic trading.
 Rust for microsecond latency execution systems, with a research layer for
 identifying and systematizing exploitable market inefficiencies.
 
-**Currently:** Quant researcher + systems engineer on Polymarket —
+**Currently:** Quant researcher + systems engineer on Polymarket 
 building and validating alpha-generating strategies backed by data,
 with production Rust execution infrastructure.
 
