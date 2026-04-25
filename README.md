@@ -1,11 +1,9 @@
 # Yahya Ehsan
 
-**Trading Systems Engineer**
+**Systems & Trading Infrastructure Engineer**
 
-High performance infrastructure for prediction markets and algorithmic trading.
-Rust for microsecond latency execution systems, with a research layer for
-identifying and systematizing exploitable market inefficiencies.
-
+High-performance infrastructure for algorithmic trading and blockchain data validation.
+Building microsecond-latency execution systems in Rust, alongside low-level, high-throughput EVM parsers in C++.
 **Currently:** Quant researcher + systems engineer on Polymarket 
 building and validating alpha-generating strategies backed by data,
 with production Rust execution infrastructure.
@@ -40,6 +38,18 @@ research → backtest → production execution.
 
 ---
 
+### Multi-Chain EVM Data Pipeline
+High-throughput EVM log ingestion and parsing architecture for blockchain trading infrastructure.
+
+**Architecture & Performance:**
+- Engineered a multi-chain EVM log parser processing 35,000+ events per 3-min test across UniswapV2 (ETH) and PancakeSwap (BSC).
+- Architected an SPMC queue-based pipeline utilizing single-producer WebSocket ingestion and tx-level worker parallelism.
+- Profiled single-thread vs. worker pool performance, identified I/O-bound bottlenecks, and preserved a 7x decode improvement for bursty loads.
+
+**Stack:** C++, WebSockets, EVM
+
+---
+
 ## Other Systems Projects
 
 ### Real-Time File Sync Engine
@@ -63,6 +73,7 @@ Bare-metal kernel: SV32 virtual memory, process management, context switching.
 ## Technical Stack
 
 **Core:** Rust (Tokio, async/await, lock-free concurrency) · Go · TypeScript/Node.js · Python  
+**Web3 & Blockchain:** EVM (Uniswap V2/V3, PancakeSwap) · Solana · Multi-chain parsers · WebSocket ingestion
 **Trading:** CLOB APIs · WebSocket order book streaming · real-time event normalization · position sizing  
 **Backend:** OAuth 2.0 · REST/WebSocket APIs · PostgreSQL · Redis · async workers  
 **Infra:** GCP · AWS · Supabase
