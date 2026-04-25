@@ -4,6 +4,7 @@
 
 High-performance infrastructure for algorithmic trading and blockchain data validation.
 Building microsecond-latency execution systems in Rust, alongside low-level, high-throughput EVM parsers in C++.
+
 **Currently:** Quant researcher + systems engineer on Polymarket 
 building and validating alpha-generating strategies backed by data,
 with production Rust execution infrastructure.
