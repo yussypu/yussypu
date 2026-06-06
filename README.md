@@ -1,5 +1,3 @@
-## Yahya Ehsan
-
 I write Rust and C++, mostly low level systems where correctness and latency pull against each other.
 I like measuring exactly what that costs.
 
