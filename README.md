@@ -21,6 +21,6 @@ I like measuring exactly what that costs.
 **Also**: urduclang (write C in Urdu script), c-os (RISC-V kernel), rust-file-sync.
 
 ### open source
-- mistral.rs: https://github.com/EricLBuehler/mistral.rs/pull/2170
+- mistral.rs: https://github.com/EricLBuehler/mistral.rs/pull/2170. traced an engine panic to an unwrap on a best effort send that fired when a client disconnected mid request.
 
 yahyaehsan.dev · yahyaehsan137@gmail.com · Amsterdam
