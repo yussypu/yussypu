@@ -20,5 +20,5 @@ Quant research and the Rust execution stack under it, on Polymarket. Sub 100ms m
 ### open source
 mistral.rs: https://github.com/EricLBuehler/mistral.rs/pull/2170. traced an engine panic to an unwrap on a best effort send that fired when a client disconnected mid request.
 
-
+### contact
 yahyaehsan.dev · yahyaehsan137@gmail.com · Amsterdam
