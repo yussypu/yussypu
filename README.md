@@ -21,7 +21,7 @@ Quant research and the Rust execution stack under it, on Polymarket. Sub 100ms m
 
 **dune**
 
-[ocaml/dune#15017](https://github.com/ocaml/dune/pull/15017). cram's path tokenizer split at the first space, so a project path containing one left the absolute prefix unsanitized; fix matches the build path prefix map sources literally. merged as is; maintainer noted the regression test does not reproduce without the fix.
+[ocaml/dune#15017](https://github.com/ocaml/dune/pull/15017). cram's path tokenizer split at the first space, so a project path containing one left the absolute prefix unsanitized; fix matches the build path prefix map sources literally.
 
 [ocaml/dune#15016](https://github.com/ocaml/dune/pull/15016). under --error-reporting=twice the deterministic error list ran into build output with nothing marking its start; added a separator before it, suppressed when there are no errors.
 
