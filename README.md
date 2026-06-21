@@ -19,14 +19,16 @@ Quant research and the Rust execution stack under it, on Polymarket. Sub 100ms m
 
 ### open source
 
-dune: 
+**dune**
 
 [ocaml/dune#15017](https://github.com/ocaml/dune/pull/15017). cram's path tokenizer split at the first space, so a project path containing one left the absolute prefix unsanitized; fix matches the build path prefix map sources literally. merged as is; maintainer noted the regression test does not reproduce without the fix.
 
 [ocaml/dune#15016](https://github.com/ocaml/dune/pull/15016). under --error-reporting=twice the deterministic error list ran into build output with nothing marking its start; added a separator before it, suppressed when there are no errors.
 
 
-mistral.rs: [EricLBuehler/mistral.rs#2170](https://github.com/EricLBuehler/mistral.rs/pull/2170). traced an engine panic to an unwrap on a best effort send that fired when a client disconnected mid request.
+**mistral.rs** 
+
+[EricLBuehler/mistral.rs#2170](https://github.com/EricLBuehler/mistral.rs/pull/2170). traced an engine panic to an unwrap on a best effort send that fired when a client disconnected mid request.
 
 ### contact
 yahyaehsan.dev · yahyaehsan137@gmail.com · Amsterdam
