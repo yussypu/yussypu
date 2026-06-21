@@ -8,7 +8,7 @@ C++ EVM log parser at a DeFi terminal. Multi chain, real time. Single producer W
 Quant research and the Rust execution stack under it, on Polymarket. Sub 100ms market-state detection, isolated failure domains, kill switch.
 
 
-selected projects
+### selected projects
 
 [crackeddb](https://github.com/yussypu/crackeddb): embedded OLTP engine. Serializable; SSI specified in TLA+ and machine checked; every source of nondeterminism behind one trait, so a bug from a seed reproduces byte for byte. The only backend in its own benchmark that detects write skew. The mature engines are faster and commit the anomaly.
 
