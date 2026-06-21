@@ -26,6 +26,7 @@ Quant research and the Rust execution stack under it, on Polymarket. Sub 100ms m
 [ocaml/dune#15016](https://github.com/ocaml/dune/pull/15016). under --error-reporting=twice the deterministic error list ran into build output with nothing marking its start; added a separator before it, suppressed when there are no errors.
 
 
+
 **mistral.rs** 
 
 [EricLBuehler/mistral.rs#2170](https://github.com/EricLBuehler/mistral.rs/pull/2170). traced an engine panic to an unwrap on a best effort send that fired when a client disconnected mid request.
